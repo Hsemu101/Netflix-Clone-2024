@@ -25,3 +25,4 @@ dist-ssr
 node_modules/
 npm-debug.log
 UsershenokAppDataLocalnpm-cache/
+.env
