@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.HeaderContainer{
+ display: flex;
+ background-color: #111;
+ margin-bottom: 3%;
+}
+
+.LeftContainer{
+   /* border: solid green; */
+   background-color: #111;
+   padding-bottom: 27px;
+   padding-top: 1px;
+  
+}
+.headerUL{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1%;
+   
+}
+.ul-one{
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 28px;
+    color: white
+}
+
+.ul-two{
+    color: white;
+    margin-top: 28px;
+}
+
+.ul-three{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    margin-top: 28px;
+}
+
+.ul-four{
+    color: white;
+    margin-top: 28px;
+}
+.ul-five{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+    margin-top: 28px;
+}
+.ul-six{
+    color: white;
+    margin-top: 28px;
+}
+
+.Netflix-image{
+    height: 20px;
+    margin-left: 5%;
+    margin-top: 0%;
+  
+   
+ 
+}
+.Netflix-image img{
+    height: 77px;
+    
+    /* border: solid green */
+}
+
+
+
+.RightContainer{
+    /* border: solid green */
+}
+
+.right-li-header{
+    display: flex;
+    color: white;
+    list-style-type: none;
+    margin-top: 37px;
+}
+
+.Right-li-one{
+    margin-left: 58%;
+    
+}
+
+.Right-li-two{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Right-li-three{
+
+}
+
+.Right-li-four{
+    margin-top: 1px
+}
