@@ -1,0 +1,73 @@
+/* *body{
+    margin-top: 12%;
+} */
+
+
+
+
+
+
+
+
+
+.banner{
+    /* border: solid red; */
+    height: 890px;
+    margin-top: -100px;
+    /* width: 1000px; */
+}
+
+
+.title{
+    /* border: solid green; */
+    margin-top: -450px;
+    margin-left: 95px;
+    color: white;
+}
+
+.description{
+    margin-left: 95px;
+    color: white; 
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+.button{
+margin-top: 14px;
+margin-left: 95px;
+display: flex;
+border: none;
+
+}
+
+
+
+.left-button{
+  margin-right: 2%;
+  /* border: solid green; */
+  height: 70px;
+  width: 150px;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: white
+}
+
+.right-button{
+    /* border: solid green; */
+    height: 70px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgb(122, 122, 116);
+    color: white
+}
+
+.left-button:hover{
+    /* font-size: 32px; */
+    background-color: rgb(122, 122, 116);
+}
+
+.right-button:hover{
+    font-size: 23px;
+}
+

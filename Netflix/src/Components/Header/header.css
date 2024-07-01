@@ -4,13 +4,15 @@
 }
 .HeaderContainer{
  display: flex;
- background-color: #111;
- margin-bottom: 3%;
+ /* background-color: #111; */
+ background-color: transparent;
+ margin-bottom: 0%;
 }
 
 .LeftContainer{
    /* border: solid green; */
-   background-color: #111;
+   /* background-color: #111; */
+   background-color: transparent;
    padding-bottom: 27px;
    padding-top: 1px;
   

@@ -1,4 +1,5 @@
-const API_k = process.env.REACT_APP_API_K;
+
+const API_k = import.meta.env.VITE_API_K;
 
 const requests = {
     fetchTopRated: `/tv/top_rated?api_key=${API_k}&language=en-US`,
