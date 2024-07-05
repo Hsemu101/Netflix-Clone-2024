@@ -1,16 +1,17 @@
 import React from 'react'
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Banner from '../Banner/Banner'
-// import Practice from "../Banner/Practice"
+import RowList from '../Rows/RowList/RowList'
+
 
 function Home() {
   return (
    <>
    <Header />
    <Banner/>
-   {/* <Practice/> */}
+   <RowList/>
    <Footer />
     </>
   )

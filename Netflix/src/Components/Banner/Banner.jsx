@@ -13,8 +13,8 @@ function Banner() {
     // if (!shouldFetch) return;
     (async () => {
       try {
-        // const Mainresult = await axios.get(requests.fetchNetflixOriginals);
-        // console.log(Mainresult)
+        const Mainresult = await axios.get(requests.fetchNetflixOriginals);
+        console.log(Mainresult)
         const autonumber = Mainresult.data.results.length;
        const generate = Math.floor(Math.random() * autonumber)
        SetMovies(Mainresult.data.results[generate]);
@@ -48,16 +48,18 @@ console.log(Movies)
         }}
         >
       </div>
-        <div class="container_name">
+        <div className="container_name">
         <h1 className="title">{Movies?.title || Movies?.name || Movies?.original_name}</h1>
-        <h2 className="description">{truncate(Movies?.overview, maxValue)}</h2>
+       
         <section className="button">
         <button className = "left-button"> <PlayArrowIcon/>&nbsp;Play</button>
-        <button className = "right-button"><InfoOutlinedIcon/>&nbsp;More Info</button>
+        <button className = "right-button">&nbsp;More Info</button>
         </section>
+        <h2 className="description">{truncate(Movies?.overview, maxValue)}</h2>
+       
         </div>
     </div>
   );
 }
-
+ 
 export default Banner;

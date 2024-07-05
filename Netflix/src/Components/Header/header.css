@@ -4,9 +4,15 @@
 }
 .HeaderContainer{
  display: flex;
- /* background-color: #111; */
- background-color: transparent;
+ /* background-color: #0B0B0B;
+ background-color: transparent; */
+ transition: background-color 2s ease;
  margin-bottom: 0%;
+ position: fixed;
+top: 0;
+width: 100%;
+height: 100px;
+z-index: 30;
 }
 
 .LeftContainer{
@@ -17,17 +23,30 @@
    padding-top: 1px;
   
 }
-.headerUL{
+.headerUL {
     display: flex;
     list-style-type: none;
     margin-top: 1%;
+    
    
 }
-.ul-one{
+.headerUL li a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.headerUL li a:hover {
+color: rgb(178, 174, 174);
+}
+
+
+.ul-one {
     margin-left: 2%;
     margin-right: 3%;
     margin-top: 28px;
-    color: white
+
+   
 }
 
 .ul-two{
@@ -85,19 +104,29 @@
 }
 
 .Right-li-one{
-    margin-left: 58%;
-    
+    margin-left: 58%;   
+}
+
+
+.Right-li-one a{
+   color: white;  
 }
 
 .Right-li-two{
     margin-left: 5%;
     margin-right: 5%;
 }
-
-.Right-li-three{
+.Right-li-two a{
+    color: white;  
+ }
+.Right-li-three a{
 
 }
 
 .Right-li-four{
     margin-top: 1px
 }
+
+.Right-li-four a{
+    color: white;  
+ }

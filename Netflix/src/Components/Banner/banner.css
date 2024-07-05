@@ -4,25 +4,25 @@
 
 
 
-
-
-
-
-
-
 .banner{
     /* border: solid red; */
-    height: 890px;
-    margin-top: -100px;
+    height:890px;
+    margin-top: -110px;
+    margin-bottom: 15%;
+   
+   
+  
     /* width: 1000px; */
 }
 
 
 .title{
     /* border: solid green; */
-    margin-top: -450px;
+    margin-top: -590px;
     margin-left: 95px;
     color: white;
+    font-weight: bolder;
+  
 }
 
 .description{
@@ -30,6 +30,8 @@
     color: white; 
     margin-top: 14px;
     margin-bottom: 24px;
+    /* border: solid yellow; */
+   
 }
 
 .button{
@@ -49,7 +51,8 @@ border: none;
   width: 150px;
   font-weight: bold;
   font-size: 22px;
-  background-color: white
+  background-color: white;
+  border: none
 }
 
 .right-button{
@@ -59,7 +62,8 @@ border: none;
     font-weight: bold;
     font-size: 22px;
     background-color: rgb(122, 122, 116);
-    color: white
+    color: white;
+    border: none
 }
 
 .left-button:hover{

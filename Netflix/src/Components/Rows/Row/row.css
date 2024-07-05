@@ -1,0 +1,95 @@
+
+
+
+ .row {
+    margin: 0;
+    padding: 0;
+}
+
+.rowContainer {
+    position: relative;
+  }
+
+
+.RowTitle {
+    color: white;
+    margin-top: 6%;
+    margin-left: 1%;
+    /* margin-top: 12%; */
+    /* border: solid rgb(0, 255, 242); */
+}
+
+.AllPictures {
+    margin: 0;
+    padding: 0;
+    transition: box-shadow 0.3s ease-in-out, z-index 0.3s ease-in-out, border 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .AllPictures:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); /* Add a more prominent shadow for depth */
+    z-index: 10; /* Bring to front */
+     /* Add a light border to enhance pop effect */
+  }
+
+.bigHeight {
+    height: 400px;
+}
+
+.MainImageContainer {
+    position: relative; 
+    display: flex;
+    overflow-x: hidden;
+   
+}
+
+.smallHeight {
+    height: 200px;
+    /* border: solid green; */
+}
+
+
+
+.mainLeftArrow,
+.mainRightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20; 
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+}
+
+.mainLeftArrow:hover,
+.mainRightArrow:hover {
+    opacity: 1;
+}
+
+
+
+
+.mainLeftArrow {
+    left: 0;
+}
+
+.mainRightArrow {
+    right: 0;
+}
+
+.mainLeftArrow a,
+.mainRightArrow a {
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
