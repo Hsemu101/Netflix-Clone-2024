@@ -10,14 +10,7 @@ import { Link } from 'react-router-dom';
 
 
 function Header() {
-  // window.addEventListener('scroll', function() {
-  //   const headerContainer = document.querySelector('.HeaderContainer');
-  //   if (window.pageYOffset === 0) {
-  //     headerContainer.style.backgroundColor = 'transparent';
-  //   } else {
-  //     headerContainer.style.backgroundColor = '#0B0B0B';
-  //   }
-  // });
+
 const [HeaderBG, SetHeaderBG] = useState("transparent")
 
 useEffect(() => {
